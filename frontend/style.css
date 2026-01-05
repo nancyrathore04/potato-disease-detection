@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: url("https://images.unsplash.com/photo-1560493676-04071c5f467b")
+                no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* blur overlay */
+.overlay {
+    position: fixed;
+    inset: 0;
+    backdrop-filter: blur(6px);
+    background: rgba(0,0,0,0.35);
+    z-index: 0;
+}
+
+/* main card */
+.card {
+    position: relative;
+    z-index: 1;
+    width: 420px;
+    background: rgba(255,255,255,0.95);
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+    text-align: center;
+}
+
+/* heading */
+.card h1 {
+    margin-bottom: 10px;
+    color: #2f5d3a;
+}
+
+.subtitle {
+    color: #555;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+/* file input */
+input[type="file"] {
+    margin: 15px 0;
+}
+
+/* button */
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: #2f8f46;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #256f38;
+}
+
+/* result */
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #2f5d3a;
+}
