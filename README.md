@@ -19,8 +19,3 @@ A Deep Learning based web application to detect potato leaf diseases using image
 - `api/` – FastAPI backend  
 - `frontend/` – UI files (HTML, CSS, JS)  
 
-## How to Run
-1. Install dependencies  
-   ```bash
-   pip install -r requirements.txt
-
